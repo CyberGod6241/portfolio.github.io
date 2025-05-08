@@ -1,0 +1,53 @@
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Flexbox with vendor prefixes */
+.container {
+    display: -webkit-box;      /* Old Safari */
+    display: -ms-flexbox;     /* IE 10 */
+    display: flex;            /* Modern browsers */
+    -webkit-box-orient: horizontal; /* Old Safari */
+    -webkit-box-pack: justify; /* Old Safari */
+    -ms-flex-pack: justify;   /* IE 10 */
+    justify-content: space-between; /* Modern browsers */
+    padding: 20px;
+}
+
+/* Transition with vendor prefixes */
+.button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s ease; /* Safari */
+    -moz-transition: background-color 0.3s ease;    /* Firefox */
+    -o-transition: background-color 0.3s ease;      /* Opera */
+    transition: background-color 0.3s ease;          /* Modern browsers */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Grid layout with vendor prefixes */
+.grid {
+    display: -ms-grid;        /* IE 10 */
+    display: grid;            /* Modern browsers */
+    -ms-grid-columns: 1fr 1fr; /* IE 10 */
+    grid-template-columns: repeat(2, 1fr); /* Modern browsers */
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
