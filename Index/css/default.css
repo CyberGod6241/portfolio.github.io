@@ -1,0 +1,156 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; /* Base font size */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Default font */
+    line-height: 1.6; /* Line height for better readability */
+    color: #333; /* Default text color */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em; /* Space below headings */
+    color: #222; /* Darker color for headings */
+}
+
+h1 {
+    font-size: 2em; /* Size for h1 */
+}
+
+h2 {
+    font-size: 1.75em; /* Size for h2 */
+}
+
+h3 {
+    font-size: 1.5em; /* Size for h3 */
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1em; /* Space below paragraphs */
+}
+
+/* Links */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Lists */
+ul, ol {
+    margin-bottom: 1em; /* Space below lists */
+    padding-left: 1.5em; /* Indent lists */
+}
+
+li {
+    margin-bottom: 0.5em; /* Space between list items */
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 1em 0; /* Space above and below blockquotes */
+    padding: 0.5em 1em; /* Padding inside blockquotes */
+    border-left: 4px solid #007bff; /* Left border for blockquotes */
+    background-color: #f9f9f9; /* Light background for blockquotes */
+}
+
+/* Horizontal Rules */
+hr {
+    border: none; /* Remove default border */
+    border-top: 1px solid #ccc; /* Add a top border */
+    margin: 1em 0; /* Space above and below */
+}
+
+/* Images */
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Tables */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-bottom: 1em; /* Space below tables */
+}
+
+th, td {
+    padding: 0.5em; /* Padding inside cells */
+    border: 1px solid #ccc; /* Cell border */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #f2f2f2; /* Light background for headers */
+}
+
+/* Forms */
+input, textarea, select, button {
+    font-family: inherit; /* Inherit font from body */
+    font-size: inherit; /* Inherit font size */
+}
+
+input, textarea, select {
+    padding: 0.5em; /* Padding for form elements */
+    margin-bottom: 1em; /* Space below form elements */
+    border: 1px solid #ccc; /* Border for form elements */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    padding: 0.5em 1em; /* Padding for buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+/* Containers */
+header, nav, main, footer, section, article, aside {
+    padding: 1em; /* Padding for layout sections */
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center; /* Center text */
+}
+
+.hidden {
+    display: none; /* Hide elements */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 90%; /* Slightly reduce font size on smaller screens */
+    }
+}
+
+/* Additional styles for various elements */
+code {
+    font-family: monospace; /* Monospace font for code */
+    background-color: #f4f4f4; /* Light background for code */
+    padding: 0.2em 0.4em; /* Padding for code */
+}
+
+pre {
+    background-color: #f4f4f4; /* Light background for preformatted text */
+}
